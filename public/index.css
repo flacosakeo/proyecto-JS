@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    background-color: #218838;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+li .actions {
+    display: flex;
+    gap: 10px;
+}
+
+
+li button {
+    background-color: #007bff;
+}
+
+
+li button:hover {
+    background-color: #0056b3;
+}
+
+
+li .delete {
+    background-color: #dc3545;
+}
+
+
+li .delete:hover {
+    background-color: #c82333;
+}
